@@ -1,0 +1,34 @@
+.DS_Store
+node_modules
+fontend/dist
+
+# local env files
+.env.local
+.env.*.local
+backend/application/.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+backend/build
+backend/application.egg-info
+
+# Cache
+.pytest_cache
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.xcodeproj
+
+venv
+*.pyc
+yarn.lock
+scenario_*.txt
